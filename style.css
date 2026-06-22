@@ -62,6 +62,8 @@ body.show-chatbot #chatbot-toggler span:last-child {
     overflow: hidden;
     border-radius: 15px;
     opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
     transform: scale(0.2);
     transform-origin: bottom right;
     box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1), 
@@ -71,6 +73,7 @@ body.show-chatbot #chatbot-toggler span:last-child {
 
 body.show-chatbot .chatbot-popup {
     opacity: 1;
+    visibility: visible;
     pointer-events: auto;
     transform: scale(1);
 }
